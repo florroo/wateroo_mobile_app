@@ -21,27 +21,27 @@ Na koniec dnia użytkownik otrzymuje raport, który pokazuje, ile cukru, węglow
 ## Panele / zakładki aplikacji 
 - Logowanie
 
-![login](images/1)
+![login](images/1.png)
 
 - Rejestracja
 
-![rejestracja](images/2)
+![rejestracja](images/2.png)
 
 - Przypominanie hasła
 
-![forgot](images/3)
+![forgot](images/3.png)
 
 - Panel domowy użytkownika
 
-![home](images/4)
+![home](images/4.png)
 
 - Panel wykresów spożytych napojów
 
-![charts](images/5)
+![charts](images/5.png)
 
 - Panel ustawień
 
-![settings](images/6)
+![settings](images/6.png)
 
 ## Biblioteki
 ### Biloteka implementująca wykresy
