@@ -21,7 +21,7 @@ Na koniec dnia użytkownik otrzymuje raport, który pokazuje, ile cukru, węglow
 ## Panele / zakładki aplikacji 
 - Logowanie
 
-![login](https://github.com/user-attachments/assets/c7e4ceb1-8bbd-4734-855c-6fe1bbb02731)
+![login](https://github.com/florroo/wateroo_mobile_app/issues/1#issue-3727757260)
 
 - Rejestracja
 
