@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3D3F4"
+    tools:context=".settingsFragment">
+
+    <Switch
+        android:id="@+id/notificationSetting"
+        android:layout_width="400dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="240dp"
+        android:checked="true"
+        android:switchMinWidth="60sp"
+        android:text="Powiadomienia"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/flashSetting"
+        android:layout_width="400dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="170dp"
+        android:checked="true"
+        android:switchMinWidth="60sp"
+        android:text="Błyski"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="195dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="Ustawienia"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/vibrationSetting"
+        android:layout_width="400dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:checked="true"
+        android:switchMinWidth="60sp"
+        android:text="Wibracje"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</FrameLayout>

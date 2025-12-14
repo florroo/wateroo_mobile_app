@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/water"
+        android:title="Woda" />
+    <item
+        android:id="@+id/wine"
+        android:title="Wino" />
+    <item
+        android:id="@+id/beer"
+        android:title="Piwo" />
+    <item
+        android:id="@+id/juice"
+        android:title="Sok" />
+    <item
+        android:id="@+id/coffee"
+        android:title="Kawa" />
+    <item
+        android:id="@+id/tea"
+        android:title="Herbata" />
+    <item
+        android:id="@+id/cola"
+        android:title="Cola" />
+    <item
+        android:id="@+id/fanta"
+        android:title="Fanta" />
+    <item
+        android:id="@+id/sprite"
+        android:title="Sprite" />
+</menu>

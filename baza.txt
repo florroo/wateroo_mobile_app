@@ -1,0 +1,29 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+TABLE Users {
+    user_id INT [primary key]
+    username VARCHAR(50)
+    password_hash VARCHAR(255)
+    email VARCHAR(100)
+}
+
+TABLE DrinkHistory {
+    history_id INT [primary key]
+    drink_id int
+    user_id INT
+    volume_ml INT
+    drink_date date
+}
+
+TABLE drinks{
+  drink_id INT [primary key]
+  name VARChar
+  kcal int
+  sugar int
+  carbon int
+  mineralization int
+}
+
+Ref: Users.user_id < DrinkHistory.user_id // many-to-one
+Ref: DrinkHistory.drink_id > drinks.drink_id // many-to-one

@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3D3F4"
+    tools:context=".homeFragment">
+
+    <TextView
+        android:layout_width="172dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="Panel domowy"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/totalAmountTextView"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:text="Łączna suma:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="#1E87E4"
+        android:contentDescription="Dodaj napój"
+        android:src="@drawable/baseline_add_24"
+        android:tint="#FFFFFF" />
+
+    <ProgressBar
+        android:id="@+id/amount"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="140dp"
+        android:background="#7E2E2E"
+        android:backgroundTint="#E0D0D0"
+        android:indeterminate="false"
+        android:max="2000"
+        android:progress="0"
+        android:progressTint="#1E87E4" />
+
+    <TextView
+        android:id="@+id/amountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="38dp"
+        android:text="0ml"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="6dp"
+        android:text="/2000ml"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+</FrameLayout>
