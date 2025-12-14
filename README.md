@@ -21,27 +21,27 @@ Na koniec dnia użytkownik otrzymuje raport, który pokazuje, ile cukru, węglow
 ## Panele / zakładki aplikacji 
 - Logowanie
 
-![login](https://github.com/florroo/wateroo_mobile_app/issues/1#issue-3727757260)
+![login](images/1)
 
 - Rejestracja
 
-![rejestracja](https://github.com/user-attachments/assets/26d75874-1ecf-4b7e-ad9a-dc8bef9a4440)
+![rejestracja](images/2)
 
 - Przypominanie hasła
 
-![forgot](https://github.com/user-attachments/assets/c127257b-e454-4027-aa32-3c7f8cc7b06e)
+![forgot](images/3)
 
 - Panel domowy użytkownika
 
-![home](https://github.com/user-attachments/assets/5b5c5150-8fab-4c37-958c-ea5ab3abbdd8)
+![home](images/4)
 
 - Panel wykresów spożytych napojów
 
-![charts](https://github.com/user-attachments/assets/4b698841-6d5d-4eef-8287-4b452fe32ed1)
+![charts](images/5)
 
 - Panel ustawień
 
-![settings](https://github.com/user-attachments/assets/dd067f92-da49-4ecd-8e24-573278113205)
+![settings](images/6)
 
 ## Biblioteki
 ### Biloteka implementująca wykresy
